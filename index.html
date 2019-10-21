@@ -5,24 +5,25 @@
     <title>YouTube video page</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
   </head>
   <body>
-    <header class="container">
+    <header class="container-fluid navbar sticky-top" id="nav">
         <div class="row">
-          <div class="col-2" id="logo-nav">
-            <img src="./images/YouTube-logo.jpg" id="youtube-logo" alt="YouTube logo">
+          <div class="col-3 navbar-brand" id="logo-nav">
+            <img src="./images/YouTube-logo.jpg" id="Youtube-logo" alt="YouTube logo">
           </div>
-          <div class="col-4" id="search-bar">
-            <input type="text" placeholder="Search">
-            <button>
-              <img src="./images/search-logo.png" alt="Search button. A magnyfying glass">
+          <form class="col-6 form-inline" id="search-bar">
+            <input class="form-control" type="search" placeholder="Search">
+            <button class="btn">
+              <img src="./images/search-logo.png" id="search-logo" alt="Search button. A magnyfying glass">
             </button>
-          </div>
-          <div class="col-2" id="login">
-              <img src="./images/upload-icon.png" id="upload-button" alt="camera icon with a plus sign">
-              <img src="./images/youtube-apps.png" id="youtube-apps" alt="3 by 3 squares grid. YouTube apps">
-              <img src="./images/notification.png" id="notification-icon" alt="bell outline">
-              <img src="https://yt3.ggpht.com/a-/AAuE7mBn3X0nFFhyKzcW94G1aPbn7hkTd-g6cEvDOA=s88-c-k-c0x00ffffff-no-rj-mo" id="profile-picture" alt="outline of person on purple background">
+          </form>
+          <div class="col-3" id="login">
+              <img class="nav-item" src="./images/upload-icon.png" id="upload-icon" alt="camera icon with a plus sign">
+              <img class="nav-item" src="./images/youtube-apps.png" id="youtube-apps" alt="3 by 3 squares grid. YouTube apps">
+              <img class="nav-item" src="./images/notification.png" id="notification" alt="bell outline">
+              <img class="nav-item" src="https://yt3.ggpht.com/a-/AAuE7mBn3X0nFFhyKzcW94G1aPbn7hkTd-g6cEvDOA=s88-c-k-c0x00ffffff-no-rj-mo" id="profile-picture" alt="outline of person on purple background">
           </div>
 
         </div>
@@ -31,7 +32,7 @@
       <div class="row">
         <div class="col-5 container">
           <div id="video">
-            //TODO
+             TO DO **
               <iframe width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="row">
@@ -92,7 +93,7 @@
           <div class="reccommended-video row">
               <div class="rec-element">
                   <div class="col">
-                    <img class="thumbnail" src="https://i.ytimg.com/vi/mp0-QQQgv7s/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBa01G0jvVeGnxRTmwvDpZu5IJLBA">
+                    <img class="thumbnail" src="https://i.ytimg.com/vi/mp0-QQQgv7s/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBa01G0jvVeGnxRTmwvDpZu5IJLBA" alt="Mock thumbnail of reccommended videos">
                   </div>
                   <div class="col">
                     <h3 class="rec-title">Mock Title</h3>
@@ -101,7 +102,7 @@
               </div>
             <div class="rec-element">
                 <div class="col">
-                  <img class="thumbnail" src="https://i.ytimg.com/vi/mp0-QQQgv7s/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBa01G0jvVeGnxRTmwvDpZu5IJLBA">
+                  <img class="thumbnail" src="https://i.ytimg.com/vi/mp0-QQQgv7s/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBa01G0jvVeGnxRTmwvDpZu5IJLBA" alt="Mock thumbnail of reccommended videos">
                 </div>
                 <div class="col">
                   <h3 class="rec-title">Mock Title</h3>
@@ -110,7 +111,7 @@
             </div>
             <div class="rec-element">
                 <div class="col">
-                  <img class="thumbnail" src="https://i.ytimg.com/vi/mp0-QQQgv7s/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBa01G0jvVeGnxRTmwvDpZu5IJLBA">
+                  <img class="thumbnail" src="https://i.ytimg.com/vi/mp0-QQQgv7s/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBa01G0jvVeGnxRTmwvDpZu5IJLBA" alt="Mock thumbnail of reccommended videos">
                 </div>
                 <div class="col">
                   <h3 class="rec-title">Mock Title</h3>
@@ -119,7 +120,7 @@
             </div>
             <div class="rec-element">
                 <div class="col">
-                  <img class="thumbnail" src="https://i.ytimg.com/vi/mp0-QQQgv7s/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBa01G0jvVeGnxRTmwvDpZu5IJLBA">
+                  <img class="thumbnail" src="https://i.ytimg.com/vi/mp0-QQQgv7s/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBa01G0jvVeGnxRTmwvDpZu5IJLBA" alt="Mock thumbnail of reccommended videos">
                 </div>
                 <div class="col">
                   <h3 class="rec-title">Mock Title</h3>
@@ -128,7 +129,7 @@
             </div>
             <div class="rec-element">
                 <div class="col">
-                  <img class="thumbnail" src="https://i.ytimg.com/vi/mp0-QQQgv7s/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBa01G0jvVeGnxRTmwvDpZu5IJLBA">
+                  <img class="thumbnail" src="https://i.ytimg.com/vi/mp0-QQQgv7s/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBa01G0jvVeGnxRTmwvDpZu5IJLBA" alt="Mock thumbnail of reccommended videos">
                 </div>
                 <div class="col">
                   <h3 class="rec-title">Mock Title</h3>
