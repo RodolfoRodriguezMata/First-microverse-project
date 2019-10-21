@@ -9,12 +9,12 @@
     <header class="container">
         <div class="row">
           <div class="col-2" id="logo-nav">
-            <img src="./images/YouTube-logo.jpg" id="">
+            <img src="./images/YouTube-logo.jpg" id="youtube-logo" alt="YouTube logo">
           </div>
           <div class="col-4" id="search-bar">
-            <input></input>
+            <input type="text" placeholder="Search"></input>
             <button>
-              <img src="./images/search-logo.png" alt="">
+              <img src="./images/search-logo.png" alt="Search button. A magnyfying glass">
             </button>
           </div>
           <div class="col-2" id="login">
@@ -30,15 +30,15 @@
       <div class="row">
         <div class="col-5 container">
           <div id="video">
-
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="row">
-            <h1 id="video-title"></h1>
-            <img id="author-img" src="./images/author-img.png">
-            <p id="author-name"></p>
-            <button id="subscribe-btn"></button>
-            <p id="subscribers"></p>
-            <p id="views"></p>
+            <h1 id="video-title">Contributing to Open Source Part I: The Easy Way</h1>
+            <img id="author-img" src="./images/author-img.png" alt="Letter T on a green background">
+            <p id="author-name">The Odin Project</p>
+            <button id="subscribe-btn">Subscribe</button>
+            <p id="subscribers">799</p>
+            <p id="views">50, 016 views</p>
           </div>
           <div class="row">
             <button id="add-to">
@@ -46,7 +46,7 @@
                 <img src="./images/addTo-icon.png" alt="">
               </span>
               <span>
-
+                <p>Add to</p>
               </span>
             </button>
             <button id="share">
@@ -54,7 +54,7 @@
                   <img src="./images/share-icon.png" alt="">
                 </span>
                 <span>
-
+                  <p>Share</p>
                 </span>
             </button>
             <button id="more">
@@ -62,7 +62,7 @@
                   <img src="./images/more-icon.png" alt="">
                 </span>
                 <span>
-
+                  <p>More</p>
                 </span>
             </button>
             <button id="like">
@@ -70,7 +70,7 @@
                   <img src="./images/like-icon.png" alt="">
                 </span>
                 <span>
-
+                  <p>359</p>
                 </span>
             </button>
             <button id="dislike">
@@ -78,7 +78,7 @@
                   <img src="./images/dislike-icon.png" alt="">
                 </span>
                 <span>
-
+                  <p>14</p>
                 </span>
               </button>
           </div>
@@ -88,25 +88,51 @@
         </div>
         <div class="col-3 container">
           <div class="reccommended-video row">
+              <div class="rec-element">
+                  <div class="col">
+                    <img class="thumbnail" src="https://i.ytimg.com/vi/mp0-QQQgv7s/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBa01G0jvVeGnxRTmwvDpZu5IJLBA">
+                  </div>
+                  <div class="col">
+                    <h3 class="rec-title">Mock Title</h3>
+                    <p class="rec-views">Mock-views ammount</p>
+                  </div>
+              </div>
             <div class="rec-element">
-              <div class="col">
-                <img class="thumbnail">
-              </div>
-              <div class="col">
-                <h3 class="rec-title"></h3>
-                <p class="rec-views"></p>
-              </div>
+                <div class="col">
+                  <img class="thumbnail" src="https://i.ytimg.com/vi/mp0-QQQgv7s/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBa01G0jvVeGnxRTmwvDpZu5IJLBA">
+                </div>
+                <div class="col">
+                  <h3 class="rec-title">Mock Title</h3>
+                  <p class="rec-views">Mock-views ammount</p>
+                </div>
             </div>
             <div class="rec-element">
                 <div class="col">
-                  <img class="thumbnail">
+                  <img class="thumbnail" src="https://i.ytimg.com/vi/mp0-QQQgv7s/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBa01G0jvVeGnxRTmwvDpZu5IJLBA">
                 </div>
                 <div class="col">
-                  <h3 class="rec-title"></h3>
-                  <p class="rec-views"></p>
+                  <h3 class="rec-title">Mock Title</h3>
+                  <p class="rec-views">Mock-views ammount</p>
                 </div>
-              </div>
-
+            </div>
+            <div class="rec-element">
+                <div class="col">
+                  <img class="thumbnail" src="https://i.ytimg.com/vi/mp0-QQQgv7s/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBa01G0jvVeGnxRTmwvDpZu5IJLBA">
+                </div>
+                <div class="col">
+                  <h3 class="rec-title">Mock Title</h3>
+                  <p class="rec-views">Mock-views ammount</p>
+                </div>
+            </div>
+            <div class="rec-element">
+                <div class="col">
+                  <img class="thumbnail" src="https://i.ytimg.com/vi/mp0-QQQgv7s/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBa01G0jvVeGnxRTmwvDpZu5IJLBA">
+                </div>
+                <div class="col">
+                  <h3 class="rec-title">Mock Title</h3>
+                  <p class="rec-views">Mock-views ammount</p>
+                </div>
+            </div>
           </div>
         </div>
       </div>
