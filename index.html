@@ -11,7 +11,7 @@
     <header class="container-fluid navbar fixed-top" id="nav">
         <div class="row">
           <div class="col-3 navbar-brand" id="logo-nav">
-            <img src="./images/YouTube-logo.jpg" id="Youtube-logo" alt="YouTube logo">
+            <img src="images/YouTube-logo.jpg" id="Youtube-logo" alt="YouTube logo">
           </div>
           <form class="nav col-6 justify-content-center form-inline" id="search-bar">
             <input class="form-control" type="search" placeholder="Search">
@@ -31,19 +31,19 @@
     <main class="container">
       <div class="row">
         <div class="col-5 container">
-          <div id="video">
-             TO DO **
+          <section id="video">
+             <!--TODO border style in css-->
               <iframe width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <div class="row">
+          </section>
+          <section class="row">
             <h1 id="video-title">Contributing to Open Source Part I: The Easy Way</h1>
             <img id="author-img" src="./images/author-img.png" alt="Letter T on a green background">
             <p id="author-name">The Odin Project</p>
             <button id="subscribe-btn">Subscribe</button>
             <p id="subscribers">799</p>
             <p id="views">50, 016 views</p>
-          </div>
-          <div class="row">
+          </section>
+          <section class="row">
             <button id="add-to">
               <span>
                 <img src="./images/addTo-icon.png" alt="">
@@ -84,12 +84,17 @@
                   14
                 </span>
               </button>
-          </div>
-          <div id="comments">
+          </section>
+          <article id="description">
+            <strong>Published on Feb 27, 2014</strong>
+            <p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.</p>
+            <button id="show-more">SHOW MORE</button>
+          </article>
+          <section id="comments">
 
-          </div>
+          </section>
         </div>
-        <div class="col-3 container">
+        <aside class="col-3 container">
           <div class="reccommended-video row">
               <div class="rec-element">
                   <div class="col">
@@ -137,7 +142,7 @@
                 </div>
             </div>
           </div>
-        </div>
+        </aside>
       </div>
     </main>
     <footer class="container">

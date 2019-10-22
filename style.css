@@ -1,11 +1,14 @@
+
 * {
-    background-color: #EEEEEE;
+    background-color: #FFFFFF;
     color: #000000;
     font-family: 'Roboto', sans-serif;
     font-size: 13 px;
     margin: 0;
 }
-
+body, .container{
+  background-color: #EEEEEE;
+}
 #nav {
     height: 50px;
     display: inline;
@@ -57,4 +60,23 @@ main{
   max-width:  38px;
   padding:0;
   margin:auto;
+}
+#video{
+  margin-bottom: 10px;
+}
+#description{
+  background-color: #FFFFFF;
+}
+#show-more{
+  border-image: initial;
+  width: 100%;
+  margin: 10px 0px -15px;
+  padding: 0px 10px;
+  color:#767676;
+  border-top-right-radius: 2px 2px;
+  border-top-left-radius: 2px 2px;
+  border-color: rgb(226, 226, 226) ;
+  border-top: 1px;
+  border-width: 1px;
+  border-style: solid none none;
 }
