@@ -74,6 +74,31 @@ main{
 #img-container{
   margin-right: 10px;
 }
+
+#video-info{
+  margin-bottom: 0;
+}
+
+#subscribers{
+  border: 0.5px solid gray;
+  padding: 0.25px;
+  font-size: 11px;
+}
+
+#views, #view-ammount{
+  color: gray;
+  font-size: 16px;
+  float: inline-end;
+  
+}
+
+
+
+#interaction {
+  border-top: 1px solid gray;
+  margin-top: 0;
+}
+
 /*#description{
   background-color: #FFFFFF;
 }*/
@@ -94,13 +119,11 @@ main{
 .wide{
   width:100%;
 }
-#video-info {
-  background-color: blue;
-}
+
 
 section, article, aside {
   margin: 10px 5px;
-  background-color: red;
+  /*background-color: red;*/
   padding: 10px;
 }
 
@@ -113,4 +136,20 @@ iframe {
 
 .rec-element{
   width: 100%;
+}
+
+
+
+
+
+.btn {
+  font-size: 10px;
+  padding: 3px 8px;
+}
+
+
+.img-elements{
+  height:100%;
+  padding-top: 0;
+  padding-bottom: 0;
 }
