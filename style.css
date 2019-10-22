@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 13 px;
     margin: 0;
-}
+  }
 body, .container{
   background-color: #EEEEEE;
 }
@@ -63,10 +63,11 @@ main{
 }
 #video{
   margin-bottom: 10px;
+  width: 100%;
 }
-#description{
+/*#description{
   background-color: #FFFFFF;
-}
+}*/
 #show-more{
   border-image: initial;
   width: 100%;
@@ -79,4 +80,28 @@ main{
   border-top: 1px;
   border-width: 1px;
   border-style: solid none none;
+}
+
+.wide{
+  width:100%;
+}
+#video-info {
+  background-color: blue;
+}
+
+section, article, aside {
+  margin: 10px 5px;
+  background-color: red;
+  padding: 10px;
+}
+
+iframe {
+  height: 315px; 
+  width: 560px;
+  display: inline-flexbox;
+}
+
+
+.rec-element{
+  width: 100%;
 }
