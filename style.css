@@ -6,6 +6,9 @@
     font-size: 13 px;
     margin: 0;
   }
+  p{
+    margin-bottom: 0;
+  }
 body, .container{
   background-color: #EEEEEE;
 }
@@ -65,6 +68,12 @@ main{
   margin-bottom: 10px;
   width: 100%;
 }
+#video-title{
+  display:block;
+}
+#img-container{
+  margin-right: 10px;
+}
 /*#description{
   background-color: #FFFFFF;
 }*/
@@ -96,7 +105,7 @@ section, article, aside {
 }
 
 iframe {
-  height: 315px; 
+  height: 315px;
   width: 560px;
   display: inline-flexbox;
 }
