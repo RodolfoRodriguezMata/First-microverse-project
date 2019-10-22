@@ -85,18 +85,25 @@ main{
   font-size: 11px;
 }
 
-#views, #view-ammount{
+#view-ammount{
   color: gray;
   font-size: 16px;
-  float: inline-end;
-  
+  padding-left: 56px;
+  padding-top: 22px ;
+  overflow: clip;
+  /*align-self: flex-end;*/
 }
+.right-align{
+  margin-left: 52%;
 
+}
 
 
 #interaction {
   border-top: 1px solid gray;
   margin-top: 0;
+  border-top-right-radius: 4px 4px;
+  border-top-left-radius: 4px 4px;
 }
 
 /*#description{
