@@ -69,6 +69,12 @@ main{
 
 }
 
+#details-wrap{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 8px;
+}
+
 #video-title{
   display:block;
 }
@@ -80,6 +86,7 @@ main{
 }
 #video-info{
   margin-bottom: 0;
+  padding-left: 0;
 }
 
 #subscribers{
@@ -104,27 +111,43 @@ main{
 
 
 #interaction {
-  border-top: 1px solid gray;
+  border-top: 1px solid;
+  border-color: rgb(226, 226, 226) transparent transparent;
   margin-top: 0;
-  border-top-right-radius: 4px 4px;
-  border-top-left-radius: 4px 4px;
-}
-
-/*#description{
-  background-color: #FFFFFF;
-}*/
-#show-more{
-  border-image: initial;
-  width: 100%;
-  margin: 10px 0px -15px;
-  padding: 0px 10px;
-  color:#767676;
   border-top-right-radius: 2px 2px;
   border-top-left-radius: 2px 2px;
-  border-color: rgb(226, 226, 226) ;
-  border-top: 1px;
-  border-width: 1px;
-  border-style: solid none none;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+#interaction-col{
+  margin-left: 0;
+  padding-left:0;
+}
+
+#likes {
+  position: relative;
+  
+  padding-right: 0;
+}
+#description{
+  padding: 20px;
+  font-size: 12px;
+}
+#show-more{
+  width: 100%;
+  margin: 10px 0px -15px;
+  padding: 5px 10px;
+  color:#767676;
+  /*border-top-right-radius: 2px 2px;
+  border-top-left-radius: 2px 2px;
+  border-color: rgb(226, 226, 226) transparent transparent;
+  border-top: 1px solid; */ 
+}
+
+#show-wrap{
+  
 }
 
 .mr{

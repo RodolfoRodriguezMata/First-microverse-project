@@ -35,8 +35,10 @@
              <!--TODO border style in css-->
               <iframe class=" flex-grow-1" src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </section>
-          <section  id="video-info" class="row mr-2">
-            <div class="col">
+      <div id="details-wrap" class="row">
+        
+          <section  id="video-info" class="col mr-2">
+            <div class="col ml-0">
               <div class="row">
                 <div class="col">
                  <h5 id="video-title">Contributing to Open Source Part I: The Easy Way</h5>
@@ -65,8 +67,10 @@
 
             </div>
           </section>
-          <section id="interaction" class="row mr-2">
-            <div class="col-7 align-content-start">
+          <div class="w-100"></div>
+          <section id="interaction" class="col mr-2">
+            <div class="row">
+            <div class="col-7 align-content-start" id="interaction-col">
               <button id="add-to" class="btn btn-outline-light">
                 <span>
                   <img src="./images/addTo-icon.png" alt="">
@@ -92,16 +96,8 @@
                   </span>
               </button>
             </div>
-            <div class="col-4 align-content-end align-self-end">
-              <button id="like" class="btn btn-outline-light">
-                  <span>
-                    <img src="./images/like-icon.png" alt="">
-                  </span>
-                  <span>
-                    359
-                  </span>
-              </button>
-              <button id="dislike" class="btn btn-outline-light">
+            <div class="col-4 d-flex flex-row-reverse" id="likes">
+                <button id="dislike" class="btn btn-outline-light">
                   <span>
                     <img src="./images/dislike-icon.png" alt="">
                   </span>
@@ -109,12 +105,25 @@
                     14
                   </span>
                 </button>
+                <button id="like" class="btn btn-outline-light">
+                    <span>
+                      <img src="./images/like-icon.png" alt="">
+                    </span>
+                    <span>
+                      359
+                    </span>
+                </button>
             </div>
+          </div>
           </section>
+          </div>
           <article id="description" class="row mr-2">
             <strong>Published on Feb 27, 2014</strong>
             <p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.</p>
-            <button id="show-more">SHOW MORE</button>
+            <div id="show-wrap">
+              <button id="show-more">SHOW MORE</button>
+            </div>
+
           </article>
           <section id="comments" class="row mr-2">
 
