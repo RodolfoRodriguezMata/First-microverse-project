@@ -73,9 +73,11 @@ main{
   display:block;
 }
 #img-container{
-  margin-right: 10px;
+  margin-right: 20px;
 }
-
+#author-name{
+  font-size: 13px
+}
 #video-info{
   margin-bottom: 0;
 }
@@ -88,9 +90,10 @@ main{
 
 #view-ammount{
   color: gray;
-  font-size: 16px;
-  padding-left: 56px;
-  padding-top: 22px ;
+  font-size: 14px;
+  position: absolute;
+  bottom: -10px;
+  right: 10px;
   overflow: clip;
   /*align-self: flex-end;*/
 }
