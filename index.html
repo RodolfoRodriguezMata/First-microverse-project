@@ -10,11 +10,11 @@
   <body class="container-fluid">
     <header class="container-fluid navbar fixed-top" id="nav">
         <div class="row">
-          <div class="col-3 navbar-brand" id="logo-nav">
+          <div class="col-2 navbar-brand" id="logo-nav">
             <img src="images/YouTube-logo.jpg" id="Youtube-logo" alt="YouTube logo">
           </div>
-          <form class="nav col-6 justify-content-center form-inline" id="search-bar">
-            <input class="form-control" type="search" placeholder="Search">
+          <form class="nav col-7 justify-content-center form-inline" id="search-bar">
+            <input class="form-control flex-grow-1" type="search" placeholder="Search">
             <button class="btn">
               <img src="./images/search-logo.png" id="search-logo" alt="Search button. A magnyfying glass">
             </button>
@@ -31,14 +31,16 @@
     <main class="container">
       <div class="row">
         <div class="col-8 container">
-          <section id="video" class="wide justify-content-beginning row">
+          <section id="video" class="row mr-2 px-0 justify-content-beginning">
              <!--TODO border style in css-->
-              <iframe src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class=" flex-grow-1" src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </section>
-          <section  id="video-info" class="row wide">
+          <section  id="video-info" class="row mr-2">
             <div class="col">
               <div class="row">
-                <h5 id="video-title">Contributing to Open Source Part I: The Easy Way</h5>
+                <div class="col">
+                 <h5 id="video-title">Contributing to Open Source Part I: The Easy Way</h5>
+                </div>
               </div>
               <div class="row">
                 <div class="col-1 img-elements" id="img-container">
@@ -63,7 +65,7 @@
 
             </div>
           </section>
-          <section id="interaction" class="row wide">
+          <section id="interaction" class="row mr-2">
             <button id="add-to" class="btn btn-outline-light">
               <span>
                 <img src="./images/addTo-icon.png" alt="">
@@ -107,16 +109,16 @@
                 </button>
             </div>
           </section>
-          <article id="description" class="wide row">
+          <article id="description" class="row mr-2">
             <strong>Published on Feb 27, 2014</strong>
             <p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.</p>
             <button id="show-more">SHOW MORE</button>
           </article>
-          <section id="comments" class="wide row">
+          <section id="comments" class="row mr-2">
 
           </section>
         </div>
-        <aside class="col-4 container wide">
+        <aside class="col-4 container ">
               <div class="rec-element row">
                   <div class="col">
                     <img class="thumbnail" src="https://i.ytimg.com/vi/mp0-QQQgv7s/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBa01G0jvVeGnxRTmwvDpZu5IJLBA" alt="Mock thumbnail of reccommended videos">

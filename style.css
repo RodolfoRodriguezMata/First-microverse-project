@@ -24,8 +24,7 @@ main{
     padding-top: 55px;
 }
 #Youtube-logo {
-    height: 30px;
-    width: 100 px;
+    height: 45px;
 }
 .navbar-brand{
     margin-right: 0;
@@ -65,9 +64,11 @@ main{
   margin:auto;
 }
 #video{
+  padding: 0;
   margin-bottom: 10px;
-  width: 100%;
+
 }
+
 #video-title{
   display:block;
 }
@@ -123,8 +124,8 @@ main{
   border-style: solid none none;
 }
 
-.wide{
-  width:100%;
+.mr{
+  margin-right: 10px;
 }
 
 
