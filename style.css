@@ -144,11 +144,31 @@ iframe {
 
 .rec-element{
   width: 100%;
+  font-size: 11px;
+  padding-bottom: 10px;
+  cursor: pointer;
 }
 
+.rec-author, .rec-views {
+  color: gray;
+  font-size: 10px;
+}
 
+.rec-duration{
+  position: absolute;
+  bottom: 2px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.500);
+  padding: 1px;
+  color: white;
+  z-index: 10;
+  border-color: white;
+}
 
-
+.thumbnail {
+  height: 94px;
+  width: 168px;
+}
 
 .btn {
   font-size: 10px;
