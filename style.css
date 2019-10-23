@@ -21,7 +21,7 @@ body, .container{
     background-color: #FFFFFF;
 }
 main{
-    padding-top: 55px;
+    padding-top: 80px;
 }
 #Youtube-logo {
     height: 45px;
@@ -67,6 +67,7 @@ main{
   padding: 0;
   margin-bottom: 10px;
 
+
 }
 
 #details-wrap{
@@ -104,11 +105,6 @@ main{
   overflow: clip;
   /*align-self: flex-end;*/
 }
-.right-align{
-  margin-left: 52%;
-
-}
-
 
 #interaction {
   border-top: 1px solid;
@@ -128,26 +124,28 @@ main{
 
 #likes {
   position: relative;
-  
+
   padding-right: 0;
 }
 #description{
-  padding: 20px;
+  padding: 15px 15px 10px 15px;
+  margin-bottom: 15px;
   font-size: 12px;
 }
 #show-more{
+  border-style: none;
   width: 100%;
-  margin: 10px 0px -15px;
+  margin: 0px 0px -15px;
   padding: 5px 10px;
   color:#767676;
-  /*border-top-right-radius: 2px 2px;
+}
+#show-wrap{
+  margin-top:10px;
+  width:100%;
+  border-top-right-radius: 2px 2px;
   border-top-left-radius: 2px 2px;
   border-color: rgb(226, 226, 226) transparent transparent;
-  border-top: 1px solid; */ 
-}
-
-#show-wrap{
-  
+  border-top: 1px solid;
 }
 
 .mr{
@@ -156,17 +154,56 @@ main{
 
 
 section, article, aside {
-  margin: 10px 5px;
+  margin: 0px 5px;
   /*background-color: red;*/
   padding: 10px;
 }
-
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.0976562) 0px 1px 2px;
+}
 iframe {
   height: 315px;
   width: 560px;
   display: inline-flexbox;
+  border:none;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 37px;
+  height: 95%;
 }
 
+/* Hide default HTML checkbox*/
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider{
+  position: absolute;
+  background-color: #2196F3;
+  border-radius: 34px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#up-next{
+  width: 20px;
+  margin-left: 160px ;
+  margin-right: 0;
+  padding-right: 0px;
+  padding-left: 0px;
+  height: 15px;
+}
+.check{
+  display: inline-block;
+  position: absolute;
+
+  background: transparent;
+}
 
 .rec-element{
   width: 100%;
@@ -183,7 +220,7 @@ iframe {
 .rec-duration{
   position: absolute;
   bottom: 2px;
-  right: 10px;
+  right: 17px;
   background-color: rgba(0, 0, 0, 0.500);
   padding: 1px;
   color: white;
