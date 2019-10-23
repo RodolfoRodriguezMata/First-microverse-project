@@ -205,6 +205,18 @@ iframe {
   background: transparent;
 }
 
+#mark{
+  bottom: 1px;
+  left: 5px;
+}
+
+#ball{
+  height:18px;
+  width: auto;
+  bottom: -1.75px;
+  left: 21px;
+}
+
 .rec-element{
   width: 100%;
   font-size: 11px;
