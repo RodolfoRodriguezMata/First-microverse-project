@@ -20,11 +20,7 @@ Technologis we are using:
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 
 
@@ -32,14 +28,15 @@ Technologis we are using:
 <br />
 <p align="center">
   <a href="https://github.com/RodolfoRodriguezMata/First-microverse-project">
-    <img src="images/YouTube-logo.jpg" alt="Logo" width="80" height="80">
-    <p>Clone</p>
+    <img src="images/YouTube-logo.jpg" alt="Logo" width="80">
+    
   </a>
 
-  <h3 align="center">YOUR_TITLE</h3>
+  <h3 align="center">YOUTUBE clone</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
+    An attempt at recreating an archived version of the YouTube page
+    (http://archive.today/Bss88)
     <br />
     <a href="https://github.com/RodolfoRodriguezMata/First-microverse-project"><strong>Explore the docs »</strong></a>
     <br />
@@ -72,35 +69,34 @@ Technologis we are using:
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://raw.githack.com/RodolfoRodriguezMata/First-microverse-project/feature/index.html
-)
+Built for Microverse following these requirements:
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo`, `twitter_handle`, `email`
+Navigation bar
+It has an embedded image that represents a logo.
+The logo is aligned to the leftmost part of the navbar.
+It has an input tag that represents a search bar.
+The search bar is aligned to the middle of the navbar.
+It has a button tag that represents the search button.
+The search button is at the end (rightmost part) of the search bar.
+It has at least three embedded images on the rightmost part of the navbar that represent icons and/or an avatar.
+Video
+It is displayed.
+It shows the video title.
+It shows the number of views.
+It has like and dislike icons.
+It has a share button.
+It shows the avatar of the user who uploaded the video.
+It has a subscribe button.
+Sidebar Recommended videos
+It shows the recommended video’s thumbnail preview.
+It shows the title of the video.
+It shows the number of views.
 
+[![Product Name Screen Shot][product-screenshot]](https://gyazo.com/013cd15a0a00ec857d6a21f848cab6d7)
 
 ### Built With
 
-* []()
-* []()
-* []()
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/github_username/repo/issues) for a list of proposed features (and known issues).
-
+* [https://getbootstrap.com/](Bootsrap v 4.3)
 
 
 <!-- CONTRIBUTING -->
