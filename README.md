@@ -27,7 +27,7 @@ Technologis we are using:
 <br />
 <p align="center">
   <a href="https://github.com/RodolfoRodriguezMata/First-microverse-project">
-    <img src="images/YouTube-logo.jpg" alt="Logo" width="80">
+    <img src="images/YouTube-logo.jpg" alt="Logo" width="200">
 
   </a>
 
@@ -56,12 +56,8 @@ Technologis we are using:
 
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
 
 
 
@@ -71,25 +67,25 @@ Technologis we are using:
 Built for Microverse following these requirements:
 
 Navigation bar
-  - [x]It has an embedded image that represents a logo.
-  - [x]The logo is aligned to the leftmost part of the navbar.
-  - [x]It has an input tag that represents a search bar.
-  - [x]The search bar is aligned to the middle of the navbar.
-  - [x]It has a button tag that represents the search button.
-  - [x]The search button is at the end (rightmost part) of the search bar.
-  - [x]It has at least three embedded images on the rightmost part of the navbar that  represent [X]icons and/or an avatar.
+  - [x] It has an embedded image that represents a logo.
+  - [x] The logo is aligned to the leftmost part of the navbar.
+  - [x] It has an input tag that represents a search bar.
+  - [x] The search bar is aligned to the middle of the navbar.
+  - [x] It has a button tag that represents the search button.
+  - [x] The search button is at the end (rightmost part) of the search bar.
+  - [x] It has at least three embedded images on the rightmost part of the navbar that  represent [X]icons and/or an avatar.
 Video
-  - [x]It is displayed.
-  - [x]It shows the video title.
-  - [x]It shows the number of views.
-  - [x]It has like and dislike icons.
-  - [x]It has a share button.
-  - [x]It shows the avatar of the user who uploaded the video.
-  - [x]It has a subscribe button.
+  - [x] It is displayed.
+  - [x] It shows the video title.
+  - [x] It shows the number of views.
+  - [x] It has like and dislike icons.
+  - [x] It has a share button.
+  - [x] It shows the avatar of the user who uploaded the video.
+  - [x] It has a subscribe button.
 Sidebar Recommended videos
-  - [x]It shows the recommended video’s thumbnail preview.
-  - [x]It shows the title of the video.
-  - [x]It shows the number of views.
+  - [x] It shows the recommended video’s thumbnail preview.
+  - [x] It shows the title of the video.
+  - [x] It shows the number of views.
 
 and following this lesson :
 https://www.theodinproject.com/courses/html5-and-css3/lessons/embedding-images-and-video
