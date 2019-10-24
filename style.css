@@ -167,55 +167,6 @@ iframe {
   display: inline-flexbox;
   border:none;
 }
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 37px;
-  height: 95%;
-}
-
-/* Hide default HTML checkbox*/
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider{
-  position: absolute;
-  background-color: #2196F3;
-  border-radius: 34px;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-#up-next{
-  width: 20px;
-  margin-left: 160px ;
-  margin-right: 0;
-  padding-right: 0px;
-  padding-left: 0px;
-  height: 15px;
-}
-.check{
-  display: inline-block;
-  position: absolute;
-
-  background: transparent;
-}
-
-#mark{
-  bottom: 1px;
-  left: 5px;
-}
-
-#ball{
-  height:18px;
-  width: auto;
-  bottom: -1.75px;
-  left: 21px;
-}
 
 .rec-element{
   width: 100%;
