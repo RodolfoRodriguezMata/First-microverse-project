@@ -71,25 +71,25 @@ Technologis we are using:
 Built for Microverse following these requirements:
 
 Navigation bar
-[X]It has an embedded image that represents a logo.
-[X]The logo is aligned to the leftmost part of the navbar.
-[X]It has an input tag that represents a search bar.
-[X]The search bar is aligned to the middle of the navbar.
-[X]It has a button tag that represents the search button.
-[X]The search button is at the end (rightmost part) of the search bar.
-[X]It has at least three embedded images on the rightmost part of the navbar that  represent [X]icons and/or an avatar.
+  - [x]It has an embedded image that represents a logo.
+  - [x]The logo is aligned to the leftmost part of the navbar.
+  - [x]It has an input tag that represents a search bar.
+  - [x]The search bar is aligned to the middle of the navbar.
+  - [x]It has a button tag that represents the search button.
+  - [x]The search button is at the end (rightmost part) of the search bar.
+  - [x]It has at least three embedded images on the rightmost part of the navbar that  represent [X]icons and/or an avatar.
 Video
-[X]It is displayed.
-[X]It shows the video title.
-[X]It shows the number of views.
-[X]It has like and dislike icons.
-[X]It has a share button.
-[X]It shows the avatar of the user who uploaded the video.
-[X]It has a subscribe button.
+  - [x]It is displayed.
+  - [x]It shows the video title.
+  - [x]It shows the number of views.
+  - [x]It has like and dislike icons.
+  - [x]It has a share button.
+  - [x]It shows the avatar of the user who uploaded the video.
+  - [x]It has a subscribe button.
 Sidebar Recommended videos
-[X]It shows the recommended video’s thumbnail preview.
-[X]It shows the title of the video.
-[X]It shows the number of views.
+  - [x]It shows the recommended video’s thumbnail preview.
+  - [x]It shows the title of the video.
+  - [x]It shows the number of views.
 
 and following this lesson :
 https://www.theodinproject.com/courses/html5-and-css3/lessons/embedding-images-and-video
