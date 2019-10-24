@@ -35,6 +35,13 @@ main{
     width:  20px;
 }
 
+#search-btn {
+  border: 1px solid rgb(226, 226, 226);
+  background-color: rgb(248, 248, 248);
+  height: 35px;
+  width: 50px;
+}
+
 #upload-icon {
     height: 24px;
     width: 24px;
@@ -85,6 +92,12 @@ main{
 #author-name{
   font-size: 13px
 }
+
+#author-img{
+  height:50px;
+  width: 50px;
+}
+
 #video-info{
   margin-bottom: 0;
   padding-left: 0;
