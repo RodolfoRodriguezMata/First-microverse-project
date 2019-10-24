@@ -2,13 +2,6 @@
 Attemptting to recreate the youtube video page.
 Project: embedding images and video
 
-Technologis we are using:
-- Bootstrap V-4:
-  - included full Bootstrap libraries (JQuery, Popper.js)
-  - added to use grid functionality
-- Roboto font by Google:
-  - used to emulate the original page font
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -96,6 +89,7 @@ https://www.theodinproject.com/courses/html5-and-css3/lessons/embedding-images-a
 * (HTML5)
 * (CSS3)
 * [https://getbootstrap.com/](Bootsrap v 4.3)
+* Roboto font by Google
 
 
 <!-- LICENSE -->
