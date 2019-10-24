@@ -1,12 +1,11 @@
 # First-microverse-project
-Attemptting to recreat the youtube video page.
+Attemptting to recreate the youtube video page.
 Project: embedding images and video
-https://www.theodinproject.com/courses/html5-and-css3/lessons/embedding-images-and-video
 
 Technologis we are using:
 - Bootstrap V-4:
   - included full Bootstrap libraries (JQuery, Popper.js)
-  - added to use grid functionality 
+  - added to use grid functionality
 - Roboto font by Google:
   - used to emulate the original page font
 
@@ -29,7 +28,7 @@ Technologis we are using:
 <p align="center">
   <a href="https://github.com/RodolfoRodriguezMata/First-microverse-project">
     <img src="images/YouTube-logo.jpg" alt="Logo" width="80">
-    
+
   </a>
 
   <h3 align="center">YOUTUBE clone</h3>
@@ -56,7 +55,7 @@ Technologis we are using:
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Built With](#built-with)
+* [Built With](#built-with)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
@@ -72,44 +71,35 @@ Technologis we are using:
 Built for Microverse following these requirements:
 
 Navigation bar
-It has an embedded image that represents a logo.
-The logo is aligned to the leftmost part of the navbar.
-It has an input tag that represents a search bar.
-The search bar is aligned to the middle of the navbar.
-It has a button tag that represents the search button.
-The search button is at the end (rightmost part) of the search bar.
-It has at least three embedded images on the rightmost part of the navbar that represent icons and/or an avatar.
+[X]It has an embedded image that represents a logo.
+[X]The logo is aligned to the leftmost part of the navbar.
+[X]It has an input tag that represents a search bar.
+[X]The search bar is aligned to the middle of the navbar.
+[X]It has a button tag that represents the search button.
+[X]The search button is at the end (rightmost part) of the search bar.
+[X]It has at least three embedded images on the rightmost part of the navbar that  represent [X]icons and/or an avatar.
 Video
-It is displayed.
-It shows the video title.
-It shows the number of views.
-It has like and dislike icons.
-It has a share button.
-It shows the avatar of the user who uploaded the video.
-It has a subscribe button.
+[X]It is displayed.
+[X]It shows the video title.
+[X]It shows the number of views.
+[X]It has like and dislike icons.
+[X]It has a share button.
+[X]It shows the avatar of the user who uploaded the video.
+[X]It has a subscribe button.
 Sidebar Recommended videos
-It shows the recommended video’s thumbnail preview.
-It shows the title of the video.
-It shows the number of views.
+[X]It shows the recommended video’s thumbnail preview.
+[X]It shows the title of the video.
+[X]It shows the number of views.
+
+and following this lesson :
+https://www.theodinproject.com/courses/html5-and-css3/lessons/embedding-images-and-video
 
 [![Product Name Screen Shot][product-screenshot]](https://gyazo.com/013cd15a0a00ec857d6a21f848cab6d7)
 
 ### Built With
-
+* (HTML5)
+* (CSS3)
 * [https://getbootstrap.com/](Bootsrap v 4.3)
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 
 
 <!-- LICENSE -->
@@ -122,18 +112,12 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Rodolfo Rodriguez Mata - [Github profile](https://github.com/RodolfoRodriguezMata)
+Mohamed Sabry - [Github profile](https://github.com/mohamedSabry0)
 
-Project Link: [https://github.com/github_username/repo](https://github.com/github_username/repo)
+Project Link: [https://github.com/RodolfoRodriguezMata/First-microverse-project](https://github.com/RodolfoRodriguezMata/First-microverse-project)
 
 
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
 
 
 
