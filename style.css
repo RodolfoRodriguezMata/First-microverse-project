@@ -117,7 +117,6 @@ main{
   bottom: -10px;
   right: 10px;
   overflow: clip;
-  /*align-self: flex-end;*/
 }
 
 #interaction {
@@ -169,7 +168,6 @@ main{
 
 section, article, aside {
   margin: 0px 5px;
-  /*background-color: red;*/
   padding: 10px;
 }
 .shadow{
