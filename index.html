@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>YouTube video page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body class="container-fluid">
+    <header class="container-fluid navbar fixed-top" id="nav">
+        <div class="row">
+          <div class="col-2 navbar-brand" id="logo-nav">
+            <img src="images/hamburguer-icon.png" id="hamburguer" alt="Three lines stacked">
+            <img src="images/YouTube-logo.jpg" id="Youtube-logo" alt="YouTube logo">
+          </div>
+          <form class="nav col-7 justify-content-center form-inline" id="search-bar">
+            <input class="form-control flex-grow-1" type="search" placeholder="Search">
+            <button id="search-btn" class="btn">
+              <img src="./images/search-logo.png" id="search-logo" alt="Search button. A magnyfying glass">
+            </button>
+          </form>
+          <div class="nav col-3 justify-content-end" id="login">
+              <img class="nav-item" src="./images/upload-icon.png" id="upload-icon" alt="camera icon with a plus sign">
+              <img class="nav-item" src="./images/youtube-apps.png" id="youtube-apps" alt="3 by 3 squares grid. YouTube apps">
+              <img class="nav-item" src="./images/notification.png" id="notification" alt="bell outline">
+              <img class="nav-item" src="https://yt3.ggpht.com/a-/AAuE7mBn3X0nFFhyKzcW94G1aPbn7hkTd-g6cEvDOA=s88-c-k-c0x00ffffff-no-rj-mo" id="profile-picture" alt="outline of person on purple background">
+          </div>
+
+        </div>
+    </header>
+    <main class="container">
+      <div class="row">
+        <div class="col-8 container">
+          <section id="video" class="row mr-2 px-0 justify-content-beginning shadow">
+             <h1 class="d-none">hidden</h1>
+              <iframe class=" flex-grow-1" src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </section>
+      <div id="details-wrap" class="row shadow">
+          <section  id="video-info" class="col mr-2">
+            <h1 class="d-none">hidden</h1>
+            <div class="col ml-0">
+              <div class="row">
+                <div class="col">
+                 <h5 id="video-title">Contributing to Open Source Part I: The Easy Way</h5>
+                </div>
+              </div>
+              <div class="row ">
+                <div class="col-1 img-elements d-flex-inline " id="img-container">
+                  <img id="author-img" src="https://yt3.ggpht.com/a-/AAuE7mBn3X0nFFhyKzcW94G1aPbn7hkTd-g6cEvDOA=s88-c-k-c0x00ffffff-no-rj-mo" alt="Purple outline of a person">
+                </div>
+                <div class="col-2 img-elements d-flex-inline ">
+                  <div class="row">
+                    <p id="author-name">The Odin Project</p>
+                  </div>
+                  <div class="row">
+                    <button class="btn btn-danger" id="subscribe-btn">Subscribe</button>
+                    <p id="subscribers">799</p>
+                  </div>
+                </div>
+                <div class="col-4 offset-8">
+                  <div id="views" class="row ">
+                    <p id="view-ammount">50, 016 views</p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </section>
+          <div class="w-100"></div>
+          <section id="interaction" class="col mr-2">
+            <h1 class="d-none">hidden</h1>
+            <div class="row">
+            <div class="col-7 align-content-start" id="interaction-col">
+              <button id="add-to" class="btn btn-outline-light">
+                <span>
+                  <img src="./images/addTo-icon.png" alt="">
+                </span>
+                <span>
+                  Add to
+                </span>
+              </button>
+              <button id="share" class="btn btn-outline-light">
+                  <span>
+                      <img src="./images/share-icon.png" alt="">
+                  </span>
+                  <span>
+                    Share
+                  </span>
+              </button>
+              <button id="more" class="btn btn-outline-light">
+                  <span>
+                    <img src="./images/more-icon.png" alt="">
+                  </span>
+                  <span>
+                    More
+                  </span>
+              </button>
+            </div>
+            <div class="col-4 d-flex flex-row-reverse" id="likes">
+                <button id="dislike" class="btn btn-outline-light">
+                  <span>
+                    <img src="./images/dislike-icon.png" alt="">
+                  </span>
+                  <span>
+                    14
+                  </span>
+                </button>
+                <button id="like" class="btn btn-outline-light">
+                    <span>
+                      <img src="./images/like-icon.png" alt="">
+                    </span>
+                    <span>
+                      359
+                    </span>
+                </button>
+            </div>
+          </div>
+          </section>
+          </div>
+          <section id="description" class="row mr-2 shadow">
+            <h1 class="d-none">hidden</h1>
+            <strong>Published on Feb 27, 2014</strong>
+            <p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.</p>
+            <div id="show-wrap">
+              <button id="show-more">SHOW MORE</button>
+            </div>
+
+          </section>
+          
+        </div>
+        <aside class="col-4 container-fluid shadow">
+              
+              <div class="rec-element row">
+                  <div class="col thumbnail-col mr-1">
+                    <img class="thumbnail" src="https://i.ytimg.com/vi/8YbZuaBP9B8/maxresdefault.jpg" alt="Mock thumbnail of reccommended videos">
+                    <span class="rec-duration">0:99</span>
+                  </div>
+                  <div class="col thumbnail-info text-left pl-0">
+                    <div class="row flex-column">
+                      <h4 class="rec-title">Mock Title</h4>
+                      <p class="rec-author">Mock-author</p>
+                      <p class="rec-views">Mock-views ammount</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="rec-element row">
+                  <div class="col thumbnail-col mr-1">
+                    <img class="thumbnail" src="https://i.ytimg.com/vi/8YbZuaBP9B8/maxresdefault.jpg" alt="Mock thumbnail of reccommended videos">
+                    <span class="rec-duration">0:99</span>
+                  </div>
+                  <div class="col thumbnail-info text-left pl-0">
+                    <div class="row flex-column">
+                      <h4 class="rec-title">Mock Title</h4>
+                      <p class="rec-author">Mock-author</p>
+                      <p class="rec-views">Mock-views ammount</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="rec-element row">
+                  <div class="col thumbnail-col mr-1">
+                    <img class="thumbnail" src="https://i.ytimg.com/vi/8YbZuaBP9B8/maxresdefault.jpg" alt="Mock thumbnail of reccommended videos">
+                    <span class="rec-duration">0:99</span>
+                  </div>
+                  <div class="col thumbnail-info text-left pl-0">
+                    <div class="row flex-column">
+                      <h4 class="rec-title">Mock Title</h4>
+                      <p class="rec-author">Mock-author</p>
+                      <p class="rec-views">Mock-views ammount</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="rec-element row">
+                  <div class="col thumbnail-col mr-1">
+                    <img class="thumbnail" src="https://i.ytimg.com/vi/8YbZuaBP9B8/maxresdefault.jpg" alt="Mock thumbnail of reccommended videos">
+                    <span class="rec-duration">0:99</span>
+                  </div>
+                  <div class="col thumbnail-info text-left pl-0">
+                    <div class="row flex-column">
+                      <h4 class="rec-title">Mock Title</h4>
+                      <p class="rec-author">Mock-author</p>
+                      <p class="rec-views">Mock-views ammount</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="rec-element row">
+                  <div class="col thumbnail-col mr-1">
+                    <img class="thumbnail" src="https://i.ytimg.com/vi/8YbZuaBP9B8/maxresdefault.jpg" alt="Mock thumbnail of reccommended videos">
+                    <span class="rec-duration">0:99</span>
+                  </div>
+                  <div class="col thumbnail-info text-left pl-0">
+                    <div class="row flex-column">
+                      <h4 class="rec-title">Mock Title</h4>
+                      <p class="rec-author">Mock-author</p>
+                      <p class="rec-views">Mock-views ammount</p>
+                    </div>
+                  </div>
+              </div>
+        </aside>
+      </div>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

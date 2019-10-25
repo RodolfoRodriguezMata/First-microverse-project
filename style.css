@@ -1,0 +1,221 @@
+
+* {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13 px;
+    margin: 0;
+  }
+  p{
+    margin-bottom: 0;
+  }
+body, .container{
+  background-color: #EEEEEE;
+}
+#nav {
+    height: 50px;
+    display: inline;
+    width:100%;
+}
+#nav,#logo-nav, #search-bar, #login, .nav-item{
+    background-color: #FFFFFF;
+}
+main{
+    padding-top: 80px;
+}
+#Youtube-logo {
+    height: 45px;
+}
+.navbar-brand{
+    margin-right: 0;
+}
+
+#search-logo {
+    height: 20px;
+    width:  20px;
+}
+
+#search-btn {
+  border: 1px solid rgb(226, 226, 226);
+  background-color: rgb(248, 248, 248);
+  height: 35px;
+  width: 50px;
+}
+
+#upload-icon {
+    height: 24px;
+    width: 24px;
+}
+
+#youtube-apps {
+    height: 24px;
+    width: 24px;
+}
+
+#notification {
+   height: 24px;
+   width: 24px;
+}
+
+#profile-picture {
+    height: 32px;
+    width:  32px;
+    border-radius: 100px;
+}
+.nav-item{
+  min-height: 32px;
+  min-width:  32px;
+  max-height: 38px;
+  max-width:  38px;
+  padding:0;
+  margin:auto;
+}
+#video{
+  padding: 0;
+  margin-bottom: 10px;
+
+
+}
+
+#details-wrap{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 8px;
+}
+
+#video-title{
+  display:block;
+}
+#img-container{
+  margin-right: 20px;
+}
+#author-name{
+  font-size: 13px
+}
+
+#author-img{
+  border-radius: 50%;
+  height:50px;
+  width: 50px;
+}
+
+#video-info{
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+#subscribers{
+  border: 0.5px solid gray;
+  padding: 0.25px;
+  font-size: 11px;
+}
+
+#view-ammount{
+  color: gray;
+  font-size: 14px;
+  position: absolute;
+  bottom: -10px;
+  right: 10px;
+  overflow: clip;
+}
+
+#interaction {
+  border-top: 1px solid;
+  border-color: rgb(226, 226, 226) transparent transparent;
+  margin-top: 0;
+  border-top-right-radius: 2px 2px;
+  border-top-left-radius: 2px 2px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+#interaction-col{
+  margin-left: 0;
+  padding-left:0;
+}
+
+#likes {
+  position: relative;
+
+  padding-right: 0;
+}
+#description{
+  padding: 15px 15px 10px 15px;
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+#show-more{
+  border-style: none;
+  width: 100%;
+  margin: 0px 0px -15px;
+  padding: 5px 10px;
+  color:#767676;
+}
+#show-wrap{
+  margin-top:10px;
+  width:100%;
+  border-top-right-radius: 2px 2px;
+  border-top-left-radius: 2px 2px;
+  border-color: rgb(226, 226, 226) transparent transparent;
+  border-top: 1px solid;
+}
+
+.mr{
+  margin-right: 10px;
+}
+
+
+section, article, aside {
+  margin: 0px 5px;
+  padding: 10px;
+}
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.0976562) 0px 1px 2px;
+}
+iframe {
+  height: 315px;
+  width: 560px;
+  display: inline-flexbox;
+  border:none;
+}
+
+.rec-element{
+  width: 100%;
+  font-size: 11px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.rec-author, .rec-views {
+  color: gray;
+  font-size: 10px;
+}
+
+.rec-duration{
+  position: absolute;
+  bottom: 2px;
+  right: 17px;
+  background-color: rgba(0, 0, 0, 0.500);
+  padding: 1px;
+  color: white;
+  z-index: 10;
+  border-color: white;
+}
+
+.thumbnail {
+  height: 94px;
+  width: 168px;
+}
+
+.btn {
+  font-size: 10px;
+  padding: 3px 8px;
+}
+
+
+.img-elements{
+  height:100%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
